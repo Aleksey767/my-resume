@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Aleksey Sazonov</title>
     <link rel="stylesheet" href="css/style.css"/>
+
 </head>
 <body>
 
@@ -18,10 +19,26 @@
                         <span></span>
                     </div>
                 </li>
-                <li class="menu__item menu__item--github"><a href="#">Github</a></li>
-                <li class="menu__item menu__item--linkedin"><a href="#">linkedin</a></li>
-                <li class="menu__item menu__item--telegram"><a href="#">Telegram</a></li>
-                <li class="menu__item menu__item--resume"><a href="#">Resume</a></li>
+                <li class="menu__item menu__item--github"><a target="_blank"
+                                                             href="https://github.com/Aleksey767">Github</a></li>
+                <li class="menu__item menu__item--linkedin"><a target="_blank"
+                                                               href="https://www.linkedin.com/in/aleksey-sazonov/">linkedin</a>
+                </li>
+                <li class="menu__item menu__item--telegram"><a target="_blank"
+                                                               href="https://t.me/aleksey441">Telegram</a></li>
+                <li class="menu__item menu__item--resume"><a target="_blank" href="files/CV-Sazonov.pdf" download="">Resume</a>
+                </li>
+                <li class="menu__item menu__item--language">
+                    <div class="dropdown">
+                        <div class="dropbtn"></div>
+                        <div class="flag"></div>
+                        <div class="dropdown-content">
+                            <a class="select" href="#">RU</a>
+                            <a class="select" href="#">EN</a>
+                        </div>
+                    </div>
+                </li>
+
             </ul>
         </nav>
     </div>
@@ -67,10 +84,10 @@
                 </div>
                 <div class="about__info">
                     <div class="subtitle _anim-items _anim-no-hide">Junior Developer</div>
-                    <div class="title _anim-items _anim-no-hide"><span>Hi there,i'm Aleksey.</span> I help startups
-                        build amazing apps
+                    <div class="lng-greetings title _anim-items _anim-no-hide"><span>Hi there,i'm Aleksey.</span> I
+                        build interactive web apps that run across platforms & devices
                     </div>
-                    <button class="btn" type="button">GET IN TOUCH</button>
+                    <button class="btn lng-button" type="button">GET IN TOUCH</button>
                 </div>
                 <div class="figures">
                     <div class="first">
@@ -140,15 +157,13 @@
                     </div>
                 </div>
                 <div class="text">
-                    <p>My name is Ivan Votti. I’m a frontend developer with a full-stack background and a keen eye for
-                        good design. I love to make complex things simple and joy to use. Currently, I focus on building
-                        single-page applications with React and Ember.</p>
-                    <p>Over the past 8 years, I’ve gained experience across most aspects of the application lifecycle,
+                    <p class="lng-first-text">My name is Alexey Sazonov. I am an aspiring front-end developer with a lot
+                        of enthusiasm and attention to detail. I love making complex things simple and having fun using
+                        them. I'm currently focused on building Single Page Applications with React.</p>
+                    <p class="lng-second-text">Over the past 8 years, I’ve gained experience across most aspects of the
+                        application lifecycle,
                         including frontend, backend, and dev-ops. This allows me to take full ownership of a project
                         from design to implementation and deployment.</p>
-                    <p>I started as a backend developer on Python/Django stack. At some point, I found out that I enjoy
-                        contributing to user experience and design. Since then, I’ve changed my focus to frontend
-                        development.</p>
                 </div>
                 <div class="last-figure">
 
@@ -181,10 +196,10 @@
     </div>
     <section class="skills">
         <div class="main__container">
-            <div class="skills__title">
+            <div class="lng-title-skills skills__title">
                 Technical skill set
             </div>
-            <div class="skills__subtitle">
+            <div class="lng-subtitle-skills skills__subtitle">
                 I’m constantly learning and keep up to date with the latest technologies, so I can pick the best tech
                 for the job.
             </div>
@@ -198,7 +213,7 @@
                             JavaScript
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-js skills__item_desc">
                         It’s my main language and I know it well. I focus on building single-page apps with attention to
                         code quality and best practices.
                     </div>
@@ -212,7 +227,7 @@
                             HTML
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-html skills__item_desc">
                         I write semantic markup with accessibility in mind. I keep my CSS manageable and scalable
                         strictly following BEM conventions.
                     </div>
@@ -226,7 +241,7 @@
                             CSS
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-css skills__item_desc">
                         Using CSS, I separately describe the logical structures of web pages. This allows you to
                         increase the accessibility of the document, provide more flexibility and control over its
                         presentation, and reduce complexity and repetitiveness in structured content. I've been using
@@ -242,7 +257,7 @@
                             React
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-react skills__item_desc">
                         It’s my main framework and i know it well. I use react to develop user interfaces as well as
                         single page applications. React provides high speed, simplicity and scalability
                     </div>
@@ -256,7 +271,7 @@
                             Redux
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-redux skills__item_desc">
                         I am using Redux to manage the state of the application, in conjunction with the React
                         framework. It helps in the development of the client side. Redux contains a number of tools to
                         greatly simplify the transfer of storage data through the context.
@@ -271,7 +286,7 @@
                             GIT, GitHub
                         </div>
                     </div>
-                    <div class="skills__item_desc">
+                    <div class="lng-git skills__item_desc">
                         Git is needed in order to manage versions of the application being developed. This allows me to
                         conveniently merge and unmerge branches, as well as share my code with other developers.
                     </div>
@@ -281,20 +296,20 @@
     </section>
     <section class="education">
         <div class="main__container">
-            <div class="education__title">
+            <div class="lng-edu education__title">
                 Education
             </div>
             <div class="education__items">
                 <div class="item">
                     <div class="item__left">
                         <div class="item__left_yers _anim-items _anim-no-hide">2015-2019</div>
-                        <div class="item__left_name _anim-items _anim-no-hide">Branch of BSUIR MRC</div>
+                        <div class="lng-place item__left_name _anim-items _anim-no-hide">Branch of BSUIR MRC</div>
                     </div>
                     <div class="item__right">
-                        <div class="item__right_title _anim-items _anim-no-hide">Radio Technician</div>
-                        <div class="item__right_subtitle _anim-items _anim-no-hide">Department of Radio Engineering
+                        <div class="lng-name item__right_title _anim-items _anim-no-hide">Radio Technician</div>
+                        <div class="lng-dep item__right_subtitle _anim-items _anim-no-hide">Department of Radio Engineering
                         </div>
-                        <div class="item__right_desc _anim-items _anim-no-hide">Branch of BSUIR "MRK" is the oldest and
+                        <div class="lng-desc item__right_desc _anim-items _anim-no-hide">Branch of BSUIR "MRK" is the oldest and
                             most authoritative
                             educational institution of the Republic of Belarus. The college annually graduates and
                             accepts several hundred students from fields such as programming and electronics. The
@@ -306,14 +321,14 @@
                 <div class="item">
                     <div class="item__left">
                         <div class="item__left_yers _anim-items _anim-no-hide">2019-2023</div>
-                        <div class="item__left_name _anim-items _anim-no-hide">BSUIR</div>
+                        <div class="lng-place2 item__left_name _anim-items _anim-no-hide">BSUIR</div>
                     </div>
                     <div class="item__right">
-                        <div class="item__right_title _anim-items _anim-no-hide">Systems Engineer</div>
-                        <div class="item__right_subtitle _anim-items _anim-no-hide">Faculty of Computer Systems and
+                        <div class="lng-name2 item__right_title _anim-items _anim-no-hide">Systems Engineer</div>
+                        <div class="lng-dep2 item__right_subtitle _anim-items _anim-no-hide">Faculty of Computer Systems and
                             Networks
                         </div>
-                        <div class="item__right_desc _anim-items _anim-no-hide">BSUIR is one of the leading IT
+                        <div class="lng-desc2 item__right_desc _anim-items _anim-no-hide">BSUIR is one of the leading IT
                             universities in the Republic of
                             Belarus in training IT specialists.
                             Today, about 16,000 students study at the university, 1,000 of which are foreign students
@@ -328,13 +343,13 @@
                 </div>
                 <div class="item">
                     <div class="item__left">
-                        <div class="item__left_yers _anim-items _anim-no-hide">Sept - Dec 2021</div>
+                        <div class="lng-yers item__left_yers _anim-items _anim-no-hide">Sept - Dec 2021</div>
                         <div class="item__left_name _anim-items _anim-no-hide">Wargaming</div>
                     </div>
                     <div class="item__right">
                         <div class="item__right_title _anim-items _anim-no-hide">Front End Engineering</div>
                         <div class="item__right_subtitle _anim-items _anim-no-hide">WG Forge</div>
-                        <div class="item__right_desc _anim-items _anim-no-hide">Wargaming Group Limited (also known as
+                        <div class="lng-desc3 item__right_desc _anim-items _anim-no-hide">Wargaming Group Limited (also known as
                             Wargaming.net) is a
                             Belarusian video game company headquartered in Nicosia, Cyprus. The group operates across
                             more than 20 offices globally and development studios, the largest
@@ -350,10 +365,10 @@
     </section>
     <section class="work">
         <div class="main__container">
-            <div class="work__title">
+            <div class="lng-work work__title">
                 Some of my work
             </div>
-            <div class="work__subtitle">
+            <div class="lng-works work__subtitle">
                 I care about code quality and building truly pleasant user experiences, with attention to small but
                 important details.
             </div>
@@ -429,19 +444,23 @@
                 </div>
 
                 <div class="get-in-touch__center">
-                    <div class="title-last">Get in touch</div>
-                    <div class="subtitle-last">Have a project for me, or just want to say hi? Feel free to email me at
+                    <div class="lng-touch title-last">Get in touch</div>
+                    <div class="lng-hi subtitle-last">Have a project for me, or just want to say hi? Feel free to email me at
                         <span> <a class="mail" href="mailto:al_sazonov@list.ru">al_sazonov@list.ru</a> </span> or use
                         the form below.
                     </div>
-                    <form enctype="multipart/form-data" class="form__body"   id="form" onsubmit="send(event, 'php/send.php')">
+                    <form enctype="multipart/form-data" class="form__body" id="form"
+                          onsubmit="send(event, 'php/send.php')">
                         <div class="input">
-                            <input required title="Only russian or english letters are allowed" pattern="[aAаЯ-zZяЯ]+" name="name" placeholder="Your name" class="input-name animation _req" type="text">
-                            <input required name="email" placeholder="Your mail" class="input-mail animation _email _req"
+                            <input required title="Only russian or english letters are allowed" pattern="[aAаЯ-zZяЯ]+"
+                                   name="name" placeholder="Your name" class="input-name animation _req" type="text">
+                            <input required name="email" placeholder="Your mail"
+                                   class="input-mail animation _email _req"
                                    type="email">
-                            <textarea required name="text" placeholder="Your message" class="input-message _req"></textarea>
+                            <textarea required name="text" placeholder="Your message"
+                                      class="input-message _req"></textarea>
                             <div class="button">
-                                <button type="submit" class="btn">Send message</button>
+                                <button type="submit" class="lng-btn btn">Send message</button>
                             </div>
                         </div>
                     </form>
@@ -452,7 +471,7 @@
 </main>
 <footer>
     <div class="footer__container">
-        <div class="footer_desc">Designed and developed by Aleksey Sazonov.</div>
+        <div class="lng-footer footer_desc">Designed and developed by Aleksey Sazonov.</div>
         <div class="footer_images">
             <a class="logotype" href="#"> <img class="logotype" src="img/github-logo.png" alt="logo"> </a>
             <a class="logotype" href="#"><img class="logotype" src="img/telegram.png" alt="logo"> </a>
@@ -463,5 +482,6 @@
 <script src="js/app.js"></script>
 <script src="js/script.js"></script>
 <script src="js/form.js"></script>
+<script src="js/language.js"></script>
 </body>
 </html>

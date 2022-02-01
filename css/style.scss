@@ -27,6 +27,87 @@
 $desktop_width: 1100px;
 $tablet_width: 700px;
 $mobile_width: 480px;
+
+
+
+/* Language */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 140px;
+}
+.flag{
+  display: none;
+  background: url(../img/ru.png)  no-repeat left center;
+  width: 40px;
+  height: 32px;
+}
+.flag::after{
+  background: rgba(0, 0, 0, 0) url(../img/arrow-down.png) no-repeat scroll center center;
+  content: "";
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 16px;
+}
+
+.dropbtn
+{
+  background: url(../img/eng.png)  no-repeat left center;
+  padding-left: 25px;
+  width: 40px;
+  height: 40px;
+}
+
+.dropbtn::after {
+  background: rgba(0, 0, 0, 0) url(../img/arrow-down.png) no-repeat scroll center center;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 5px;
+  top: 14px;
+  width: 14px;
+}
+
+.dropdown-content a:first-child
+{
+  background: url(../img/ru.png) no-repeat left center;
+}
+
+.dropdown-content a:last-child
+{
+  background: url(../img/eng.png) no-repeat left center;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 0 2px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 .header__container {
   height: 100%;
   max-width: 1260px;

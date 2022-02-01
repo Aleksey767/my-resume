@@ -166,7 +166,8 @@ main._active {
 
 .title {
   color: #333c66;
-  font-size: 55px;
+  font-size: 43px;
+  width: 100%;
   font-family: Roboto;
   font-weight: bold;
   transform: translate(60%, 0px);
@@ -204,7 +205,7 @@ main._active {
   background-color: #4b5ebe;
   padding: 5%;
   font-family: Roboto, sans-serif;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .about__info {
@@ -254,11 +255,17 @@ main._active {
 }
 
 .text {
-  font-family: Quicksand;
+  font-family: Montserrat;
   font-size: 24px;
   text-align: start;
   line-height: 39px;
   color: #5b687b;
+}
+.text .lng-first-text {
+  word-wrap: break-word;
+}
+.text .lng-second-text {
+  word-wrap: break-word;
 }
 .text p {
   padding-top: 3%;
@@ -374,7 +381,7 @@ main._active {
   margin-top: 3%;
   font-size: 20px;
   color: #5b687b;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat;
 }
 
 .skills__item_logo-title {
@@ -438,7 +445,7 @@ main._active {
   width: 25%;
   height: 250px;
   color: white;
-  font-family: Quicksand;
+  font-family: Montserrat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -475,10 +482,10 @@ main._active {
 }
 .education__items .item .item__right {
   width: 70%;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 3%;
+  justify-content: center;
   margin-left: 3%;
 }
 .education__items .item .item__right_title {
@@ -795,10 +802,10 @@ main._active {
 
 .subtitle-last {
   color: #4a5568;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 25px;
   text-align: center;
-  width: 65%;
+  width: 85%;
   margin-bottom: 3%;
 }
 
@@ -808,10 +815,11 @@ main._active {
   border-bottom: 2px solid #d1dbf9;
 }
 
-input, .input-message {
+input,
+.input-message {
   background-color: #edf2f7;
   font-size: 16px;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat, sans-serif;
   padding: 2%;
   margin: 1% 0;
 }
@@ -885,7 +893,7 @@ input, .input-message {
 
 .button {
   margin-right: auto;
-  width: 18%;
+  width: 21%;
   margin-bottom: 15%;
 }
 .button button {
@@ -893,7 +901,8 @@ input, .input-message {
 }
 
 @media (max-width: 480px) {
-  .input-name, .input-mail {
+  .input-name,
+.input-mail {
     width: 100%;
     margin: 2% 0;
   }
@@ -901,6 +910,7 @@ input, .input-message {
   .button {
     margin: 0;
     width: 100%;
+    text-transform: uppercase;
   }
   .button button {
     margin-top: 4%;
@@ -908,6 +918,7 @@ input, .input-message {
     width: 100%;
     height: 40px;
     margin-bottom: 10%;
+    text-transform: uppercase;
   }
 
   .title-last {
@@ -925,7 +936,8 @@ input, .input-message {
     margin: 5%;
   }
 
-  .input-name, .input-mail {
+  .input-name,
+.input-mail {
     width: 100%;
     margin: 2% 0;
   }
@@ -1023,7 +1035,7 @@ footer._active {
   width: 50%;
   margin-right: auto;
   font-size: 20px;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .logotype {
@@ -1073,6 +1085,81 @@ footer._active {
   font-weight: 400;
   font-display: swap;
 }
+/* Language */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 140px;
+}
+
+.flag {
+  display: none;
+  background: url(../img/ru.png) no-repeat left center;
+  width: 40px;
+  height: 32px;
+}
+
+.flag::after {
+  background: rgba(0, 0, 0, 0) url(../img/arrow-down.png) no-repeat scroll center center;
+  content: "";
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 16px;
+}
+
+.dropbtn {
+  background: url(../img/eng.png) no-repeat left center;
+  padding-left: 25px;
+  width: 40px;
+  height: 40px;
+}
+
+.dropbtn::after {
+  background: rgba(0, 0, 0, 0) url(../img/arrow-down.png) no-repeat scroll center center;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 5px;
+  top: 14px;
+  width: 14px;
+}
+
+.dropdown-content a:first-child {
+  background: url(../img/ru.png) no-repeat left center;
+}
+
+.dropdown-content a:last-child {
+  background: url(../img/eng.png) no-repeat left center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 0 2px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .header__container {
   height: 100%;
   max-width: 1260px;

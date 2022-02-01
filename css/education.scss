@@ -24,7 +24,7 @@ $mobile_width: 480px;
       width: 25%;
       height: 250px;
       color: white;
-      font-family: Quicksand;
+      font-family: Montserrat;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -59,12 +59,13 @@ $mobile_width: 480px;
     }
     .item__right {
       width: 70%;
-      font-family: Quicksand, sans-serif;
+      font-family: Montserrat, sans-serif;
       display: flex;
       flex-direction: column;
-      margin-top: 3%;
+      justify-content: center;
       margin-left: 3%;
       &_title {
+        //margin-top: 2%;
         margin-bottom: 2%;
         font-size: 30px;
         transform: translate(40%, 0px);

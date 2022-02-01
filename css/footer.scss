@@ -15,40 +15,40 @@ $mobile_width: 480px;
     padding: 0 15px;
   }
 }
-footer{
+footer {
   background-color: #edf2f7;
   height: 100px;
   width: 100%;
 }
-footer._active{
+footer._active {
   display: none;
 }
-.footer_desc{
+.footer_desc {
   width: 50%;
   margin-right: auto;
   font-size: 20px;
-  font-family: Quicksand, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
-.logotype{
-  margin:0 3%;
+.logotype {
+  margin: 0 3%;
   width: 25px;
   height: 25px;
 }
-.footer_images{
+.footer_images {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 50%;
 }
-@media(max-width: $mobile_width){
-  .footer__container{
+@media (max-width: $mobile_width) {
+  .footer__container {
     justify-content: center;
     flex-direction: column;
   }
-  .footer_images{
+  .footer_images {
     justify-content: center;
   }
-  .footer_desc{
+  .footer_desc {
     width: 100%;
     margin: 0;
     text-align: center;
