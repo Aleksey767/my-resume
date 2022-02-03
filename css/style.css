@@ -110,7 +110,9 @@ main._active {
   }
 }
 .about__intro .about__photo {
-  padding-right: 5%;
+  padding-right: 1%;
+  height: 100%;
+  width: auto;
 }
 
 .dot {
@@ -156,6 +158,7 @@ main._active {
 @media (max-width: 700px) {
   .subtitle {
     width: 100%;
+    transform: translate(0px, 160%);
   }
 }
 
@@ -178,6 +181,7 @@ main._active {
   .title {
     font-size: 50px;
     width: 90%;
+    transform: translate(0px, 60%);
   }
 }
 @media (max-width: 480px) {
@@ -459,6 +463,11 @@ main._active {
   opacity: 0;
   transition: all 0.5s ease 0s;
 }
+@media (max-width: 700px) {
+  .education__items .item .item__left_name {
+    transform: translate(0px, -100%);
+  }
+}
 .education__items .item .item__left_name._active {
   transform: translate(0px, 0px);
   opacity: 1;
@@ -469,6 +478,11 @@ main._active {
   transform: translate(-100%, 0px);
   opacity: 0;
   transition: all 0.5s ease 0s;
+}
+@media (max-width: 700px) {
+  .education__items .item .item__left_yers {
+    transform: translate(0px, -100%);
+  }
 }
 .education__items .item .item__left_yers._active {
   transform: translate(0px, 0px);
@@ -488,12 +502,22 @@ main._active {
   justify-content: center;
   margin-left: 3%;
 }
+@media (max-width: 700px) {
+  .education__items .item .item__right {
+    padding: 3%;
+  }
+}
 .education__items .item .item__right_title {
   margin-bottom: 2%;
   font-size: 30px;
   transform: translate(40%, 0px);
   opacity: 0;
   transition: all 0.5s ease 0s;
+}
+@media (max-width: 700px) {
+  .education__items .item .item__right_title {
+    transform: translate(0px, -100%);
+  }
 }
 .education__items .item .item__right_title._active {
   transform: translate(0px, 0px);
@@ -504,6 +528,11 @@ main._active {
   transform: translate(40%, 0px);
   opacity: 0;
   transition: all 0.3s ease 0s;
+}
+@media (max-width: 700px) {
+  .education__items .item .item__right_desc {
+    transform: translate(0px, -100%);
+  }
 }
 .education__items .item .item__right_desc._active {
   transform: translate(0px, 0px);
@@ -517,6 +546,11 @@ main._active {
   transform: translate(40%, 0px);
   opacity: 0;
   transition: all 0.4s ease 0s;
+}
+@media (max-width: 700px) {
+  .education__items .item .item__right_subtitle {
+    transform: translate(0px, -100%);
+  }
 }
 .education__items .item .item__right_subtitle._active {
   transform: translate(0px, 0px);
@@ -1036,12 +1070,22 @@ footer._active {
   margin-right: auto;
   font-size: 20px;
   font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 
 .logotype {
   margin: 0 3%;
   width: 25px;
   height: 25px;
+}
+
+.logotype:hover {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .footer_images {

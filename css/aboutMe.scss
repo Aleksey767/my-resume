@@ -34,7 +34,9 @@ main._active {
     }
   }
   .about__photo {
-    padding-right: 5%;
+    padding-right: 1%;
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -76,6 +78,7 @@ main._active {
   transition: all 0.4s ease 0s;
   @media (max-width: $tablet_width) {
     width: 100%;
+    transform: translate(0px, 160%);
   }
 }
 .subtitle._active {
@@ -94,6 +97,7 @@ main._active {
   @media (max-width: $tablet_width) {
     font-size: 50px;
     width: 90%;
+    transform: translate(0px, 60%);
   }
   @media (max-width: $mobile_width) {
     font-size: 38px;
