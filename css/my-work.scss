@@ -19,7 +19,7 @@ $mobile_width: 480px;
     text-align: center;
     margin-top: 4%;
     font-size: 52px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: bolder;
     color: #4b5ebe;
   }
@@ -27,7 +27,7 @@ $mobile_width: 480px;
   &__subtitle {
     margin-top: 1%;
     text-align: center;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     margin-bottom: 3%;
   }
@@ -38,6 +38,11 @@ $mobile_width: 480px;
   }
 
   .work__wrap {
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+
     position: relative;
     cursor: pointer;
     background-color: white;
@@ -87,12 +92,15 @@ $mobile_width: 480px;
 
       &_tools {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+        height: auto;
+        margin-left: 8%;
         margin-top: 5%;
         @media (max-width: $mobile_width) {
-          display: block;
-          width: fit-content;
           text-align: center;
+          margin-right: 5%;
+          flex-wrap: wrap;
         }
 
         .item-tools {
@@ -101,11 +109,10 @@ $mobile_width: 480px;
           background-color: #d2bfba;
           color: #303248;
           margin-left: 10%;
-          padding: 1% 2%;
+          padding: 4% 3%;
           @media (max-width: $mobile_width) {
-            margin: 10%;
-            padding: 7px;
             word-wrap: break-word;
+            margin-bottom: 5px;
           }
         }
       }
@@ -130,21 +137,25 @@ $mobile_width: 480px;
     }
   }
 }
+
 .work__wrap._active {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
 .first-image img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   top: 20%;
   left: 10%;
   border-radius: 4px;
-  width: 120%;
+  width: 100%;
   height: auto;
   position: relative;
   margin-bottom: 10px;
   @media (max-width: 1200px) {
-    width: 90%;
+    top: 20px;
+    left: 10%;
+    width: 80%;
     height: auto;
   }
 }
@@ -197,4 +208,6 @@ $mobile_width: 480px;
   .work__wrap {
     width: 100%;
   }
+
 }
+

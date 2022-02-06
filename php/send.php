@@ -1,8 +1,9 @@
 <?php
  
-require '../phpmailer/PHPMailer.php';
+require '../phpmailer/Exception';
 require '../phpmailer/SMTP.php';
 require '../phpmailer/Exception.php';
+require '../../vendor/autoload.php';
 
  
 $name = $_POST['name'];
@@ -23,7 +24,7 @@ try {
     $mail->isSMTP();
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth   = true;
-    //$mail->SMTPDebug = 2;
+//     $mail->SMTPDebug = 2;
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     

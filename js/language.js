@@ -13,7 +13,7 @@ const langArr = {
         "RU": "СВЯЗАТЬСЯ"
     },
     "first-text": {
-        "EN": "My name is Alexey Sazonov. I am beginner front-end developer with a lot of enthusiasm and attention to detail. I love making complex things simple and having fun using them. I'm currently focused on building Single Page Applications with React.",
+        "EN": "My name is Aleksey Sazonov. I am beginner front-end developer with a lot of enthusiasm and attention to detail. I love making complex things simple and having fun using them. I'm currently focused on building Single Page Applications with React.",
         "RU": "Меня зовут Алексей Сазонов. Я начинающий фронтенд-разработчик с большим энтузиазмом и вниманием к деталям. Я люблю делать сложные вещи простыми и получать удовольствие от их использования. В настоящее время я сосредоточен на создании одностраничных приложений с помощью React."
     },
     "second-text": {
