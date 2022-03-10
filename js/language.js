@@ -104,6 +104,23 @@ const langArr = {
         "EN": "I care about code quality and building truly pleasant user experiences, with attention to small but important details.",
         "RU": "Я забочусь о качестве кода и создании действительно приятного пользовательского интерфейса с вниманием к небольшим, но важным деталям."
     },
+    "item3": {
+        "EN": " A simple site where I learned how to send AJAX requests,\n" +
+            "                                    validation, popup, and also implemented a countdown to a given date",
+        "RU": "Cайт где я изучал AJAX запросы,валидацию, popup, а также обратный отсчёт к заданной дате"
+    },
+    "item2": {
+        "EN": "A ready site, that I made according to the layout, training\n" +
+            "                                    my skills in HTML,CSS, as well as studying the BEM methodology",
+        "RU": "Готовый сайт, сделанный мной по макету, где я тренировал\n" +
+            "                                      мои навыки в HTML,CSS, а так же изучение методологии БЭМ"
+    },
+    "item1": {
+        "EN": "The project implemented a basket, wishlist. Administrator\n" +
+            "                                    account, product details and more.",
+        "RU": "В проекте реализована корзина, лист желаний,учетная запись администратора\n" +
+            "                                     , сведения о продукте и многое другое."
+    },
     "touch": {
         "EN": "Get in touch",
         "RU": "Связь со мной"
@@ -117,7 +134,7 @@ const langArr = {
         "RU": "ОТПРАВИТЬ"
     },
     "footer": {
-        "EN": "Design and development would be Alexey Sazonov.",
+        "EN": "Design and development would be Aleksey Sazonov.",
         "RU": "Дизайн и разработка — Алексея Сазонова."
     },
 }
