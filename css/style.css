@@ -780,7 +780,8 @@ main._active {
 
 .work__case {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 @media (max-width: 1200px) {
   .work__case {

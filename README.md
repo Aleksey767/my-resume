@@ -1,2 +1,2 @@
 # Deploy
-https://aleksey-sazonov.herokuapp.com
+http://v25793l2.beget.tech

@@ -86,7 +86,7 @@ $mobile_width: 480px;
         font-family: Montserrat, sans-serif;
         margin-left: 10%;
         margin-top: 5%;
-        font-size: 20px;
+        font-size: 17px;
         word-wrap: break-word;
       }
 
@@ -184,11 +184,11 @@ $mobile_width: 480px;
 
 .work__case {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   @media (max-width: 1200px) {
     width: 100%;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
   @media (max-width: $tablet_width) {
@@ -210,4 +210,3 @@ $mobile_width: 480px;
   }
 
 }
-

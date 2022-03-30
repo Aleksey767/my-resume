@@ -104,6 +104,14 @@ const langArr = {
         "EN": "I care about code quality and building truly pleasant user experiences, with attention to small but important details.",
         "RU": "Я забочусь о качестве кода и создании действительно приятного пользовательского интерфейса с вниманием к небольшим, но важным деталям."
     },
+    "item4": {
+        "EN": "Social network written in React. The application implements loginization, you can upload photos, change the status, look at other users, etc.(Only PC)",
+        "RU": "Социальная сеть написанная на React. В приложении реализована логинизация, можно загружать фото, менять статус, смотреть на других пользователей и т.д.(Доступно только на ПК)"
+    },
+    "item5": {
+        "EN": "Application in which you can create, edit, delete notes, add tags. Implemented Dark Mode, filtering, filtering by tags.",
+        "RU": "Приложение в котором Вы можете создавать,редактировать,удалять заметки,добавлять теги. Реализован Dark Mode, фильтрация, фильтрация по тегам."
+    },
     "item3": {
         "EN": " A simple site where I learned how to send AJAX requests,\n" +
             "                                    validation, popup, and also implemented a countdown to a given date",
@@ -118,8 +126,7 @@ const langArr = {
     "item1": {
         "EN": "The project implemented a basket, wishlist. Administrator\n" +
             "                                    account, product details and more.",
-        "RU": "В проекте реализована корзина, лист желаний,учетная запись администратора\n" +
-            "                                     , сведения о продукте и многое другое."
+        "RU": "В проекте реализована корзина, лист желаний, добавление товара, сведения о продукте и т.д."
     },
     "touch": {
         "EN": "Get in touch",
